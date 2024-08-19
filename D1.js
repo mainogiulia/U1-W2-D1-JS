@@ -22,7 +22,7 @@ dato BOOLEANO i cui unici due valori sono 'true' e 'false', tipicamente utilizza
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let myName = "giulia";
-console.log(myName);
+console.log("Il mio nome è", myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -32,7 +32,7 @@ console.log(myName);
 
 let num1 = 12
 let num2 = 20
-console.log(num1 + num2);
+console.log("Qual è la somma di 12 e 20?", num1 + num2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -50,7 +50,7 @@ let x = 12;
 /* SCRIVI QUI LA TUA RISPOSTA */
 // const= "maino"; => errore perchè con const non è possibile riassegnare il valore, con let si può
 myName = "maino";
-console.log(myName);
+console.log("Il mio cognome è", myName);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -59,7 +59,7 @@ console.log(myName);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let num3 = 4;
-console.log(num3-x);
+console.log("Quanto fa 4-12?", num3-x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -71,6 +71,6 @@ console.log(num3-x);
 
 let name1 = "john";
 let name2 = "John";
-console.log(name1===name2)
+console.log("john e John sono uguali?", name1===name2)
 
-console.log(name2.toLowerCase()===name1)
+console.log("john e John sono uguali se trasformate in minuscolo?", name2.toLowerCase()===name1)
